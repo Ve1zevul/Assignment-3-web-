@@ -1,13 +1,13 @@
 function calculatePrice() {
     let basePrice = 100;
 
-    var education = parseFloat(document.getElementById("education").value);
+    const education = parseFloat(document.getElementById("education").value);
     basePrice *= education;
 
-    var networth = parseFloat(document.getElementById("networth").value);
+    const networth = parseFloat(document.getElementById("networth").value);
     basePrice *= networth;
 
-    var caste = parseInt(document.getElementById("caste").value);
+    const caste = parseInt(document.getElementById("caste").value);
     basePrice += caste;
 
     
@@ -25,7 +25,7 @@ function calculatePrice() {
     }
 
     
-    var age = parseFloat(document.querySelector('input[name="age"]:checked').value);
+    const age = parseFloat(document.querySelector('input[name="age"]:checked').value);
     basePrice *= age;
 
 
