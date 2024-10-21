@@ -12,16 +12,16 @@ function calculatePrice() {
 
     
     if (document.getElementById("skill1").checked) {
-        basePrice = basePrice + 10;
+        basePrice += 10;
     }
     if (document.getElementById("skill2").checked) {
-        basePrice = basePrice + 20;
+        basePrice += 20;
     }
     if (document.getElementById("skill3").checked) {
-        basePrice = basePrice + 15;
+        basePrice += 15;
     }
     if (skill4 = document.getElementById("skill4").checked) {
-        basePrice = basePrice + 10;
+        basePrice += 10;
     }
 
     
